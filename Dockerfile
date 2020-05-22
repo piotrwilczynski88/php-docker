@@ -4,10 +4,8 @@ RUN apt-get clean
 RUN apt-get update
 
 RUN apt-get update && apt-get install -y \
-        git \
         tree \
         wget \
-        subversion \
         libzip-dev
 
 RUN apt-get install -y \
